@@ -26,7 +26,7 @@ if den == 0:
     pass
 else:
     quotient = num / den
-print()	
+    print(quotient)	
 
 ##################################################
 
