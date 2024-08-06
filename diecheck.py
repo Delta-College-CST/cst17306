@@ -13,8 +13,8 @@ num4 = 0
 num5 = 0
 num6 = 0
 
-# Begin simulation.  Loop to throw doe
-# each occurrence of each face.
+# Begin simulation.  Loop to throw die
+# Count occurrence of each face.
 for count in range (1,NUM_THROWS+1):
     dieThrow = random.randint(1,6)
     if dieThrow == 1:
