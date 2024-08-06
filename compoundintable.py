@@ -26,7 +26,7 @@ month = 0
 while month < totalCompoundings:
     newBalance = balance + balance * monthlyRate
     month = month + 1
-    print ("%3d    $%8.2f    $%8.2f" %(month, balance, newBalance))
+    print ("%3d    $%8.2f    $%8.2f" % (month, balance, newBalance))
     balance = newBalance
 
 
