@@ -22,10 +22,8 @@ print("Month     Start       End")
 # Note retention of 'balance' as "old" balance, but at
 # end of loop the "new" balance becomes the balance to
 # set up for next iteration.
-month = 0
-while month < totalCompoundings:
+for month in range (1, totalCompoundings+1):
     newBalance = balance + balance * monthlyRate
-    month = month + 1
     print ("%3d    $%8.2f    $%8.2f" % (month, balance, newBalance))
     balance = newBalance
 
