@@ -1,3 +1,6 @@
+# This program receives hours worked and pay rate for an hourly
+# worker.  It calcualates gross pay based on standard overtime rules.
+
 BASE_HOURS = 40.0
   
 hours  = float(input("Enter hours worked: "))
