@@ -1,8 +1,12 @@
-# This program counts the number of prime numbers between 2000 & 3000
+# This program counts the number of prime numbers in a given range
+# set by constant variables
 
-count  = 0      # Will increment when a prim is detected
+LOWER = 2000  # Lower boundary of range
+UPPER = 3000  # Upper boundary of range
 
-for number in range(2000,3001):
+count  = 0      # Will increment when a prime is detected
+
+for number in range(LOWER,UPPER+1):
 
     # Check if number is prime
     isPrime = True
@@ -16,5 +20,5 @@ for number in range(2000,3001):
     if isPrime == True:
         count = count + 1
 
-print("Primes between 2000 and 3000:", count)
+print("Primes in range:", count)
 
